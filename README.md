@@ -27,8 +27,6 @@ Usamos funções que recebem uma lista de DataFrames, e a partir dela, criamos n
 O código pode ser rodado simplesmente executando as células. Se quiser analisar outras lojas, será necessário um csv com a mesma estrutura, a partir dai basta usar as funções definidas nas células anteriores, eg.
 
 '''python
-
-# Faturamento
 nova_loja = [pd.read_csv(path), ...]
 faturamento_novo = calculo_preco(nova_loja)
 '''
